@@ -1,10 +1,29 @@
 import React from 'react'
 
-import { ExampleComponent } from 'vaporwave-aesthetic-ui'
+import {
+  Box,
+  AestheticProvider,
+  Text,
+  Heading,
+  Link,
+  Button,
+  Divider
+} from 'vaporwave-aesthetic-ui'
 import 'vaporwave-aesthetic-ui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <AestheticProvider>
+      <Box dark>
+        <Heading>derp</Heading>
+        <Text>
+          <Link href='/#'>ok</Link>
+        </Text>
+        <Divider />
+        <Button>hello i'm a button</Button>
+      </Box>
+    </AestheticProvider>
+  )
 }
 
 export default App

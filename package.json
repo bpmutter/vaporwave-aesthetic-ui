@@ -49,5 +49,11 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-icons": "^3.11.0",
+    "rebass": "^4.0.7",
+    "theme-ui": "^0.3.1"
+  }
 }

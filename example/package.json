@@ -10,9 +10,14 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "@rebass/forms": "^4.0.6",
+    "prop-types": "^15.7.2",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
+    "react-icons": "^3.11.0",
     "react-scripts": "file:../node_modules/react-scripts",
+    "rebass": "^4.0.7",
+    "theme-ui": "^0.3.1",
     "vaporwave-aesthetic-ui": "file:.."
   },
   "devDependencies": {
