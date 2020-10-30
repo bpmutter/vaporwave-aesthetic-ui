@@ -98,7 +98,7 @@ const theme = {
       fontSize: 0
     },
     hr: {
-      margin: '10 auto 0',
+      margin: '10px auto',
       width: '90%',
       border: 0,
       height: 2,
